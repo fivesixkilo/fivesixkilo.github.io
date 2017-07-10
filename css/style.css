@@ -44,7 +44,7 @@ p {
     padding-bottom: 50px;
 }
 .section_title h2 {
-    text-transform: uppercase;
+    text-transform: lowercase;
     text-align: center;
     position: relative;
     color: #333;
@@ -173,7 +173,7 @@ p {
 .home_text h1 {
     font-family: 'Lusitana', serif;
     color: #fff;
-    text-transform: none;
+    text-transform: lowercase;
     font-size: 35px;
     font-weight: 300;
     line-height: 45px;
