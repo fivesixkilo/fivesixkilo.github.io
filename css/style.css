@@ -173,7 +173,7 @@ p {
 .home_text h1 {
     font-family: 'Lusitana', serif;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 35px;
     font-weight: 300;
     line-height: 45px;
