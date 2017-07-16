@@ -44,7 +44,7 @@ p {
     padding-bottom: 50px;
 }
 .section_title h2 {
-    text-transform: lowercase;
+    text-transform: uppercase;
     text-align: center;
     position: relative;
     color: #333;
@@ -743,6 +743,7 @@ div.carousel-inner .item img {
     background: #f1f1f1;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .contact_form {
     padding-top: 30px;
