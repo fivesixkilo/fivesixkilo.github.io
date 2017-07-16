@@ -177,15 +177,16 @@ p {
     font-size: 70px;
     font-weight: 300;
     line-height: 45px;
-    padding-top: 30px
+    padding-top: 0px
 }
 .home_text p {
     color: #fff;
-    font-size: 17px;
-    line-height: 28px;
-    margin-top: 0px;
-    font-weight: 300;
-    letter-spacing: 2px;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 100px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-align:right;
 }
 .download-btn {
     margin-top: 90px;
