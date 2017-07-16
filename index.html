@@ -143,6 +143,7 @@
 
                 <!-- CONTACT FORM starts here, Go to contact.php and add your email ID, thats it.-->    
                     <form method="POST" name="contactform" action="contact-form-handler.php"> 
+<div class="col-md-4">
 <p>
 <label for='name'>Your Name:</label> <br>
 <input type="text" name="name">
@@ -151,12 +152,15 @@
 <label for='email'>Email Address:</label> <br>
 <input type="text" name="email"> <br>
 </p>
+</div>
+<div class="col-md-8">
 <p>
 <label for='message'>Message:</label> <br>
 <textarea name="message"></textarea>
 </p>
 <input type="submit" value="Submit"><br>
 </form>
+</div>
 
 <script language="JavaScript">
 // Code for validating the form
