@@ -177,7 +177,9 @@ p {
     font-size: 70px;
     font-weight: 300;
     line-height: 45px;
-    padding-top: 0px
+    padding-top: 0px;
+    margin-bottom:100px;
+    text-align:left;
 }
 .home_text p {
     color: #fff;
