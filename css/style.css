@@ -39,6 +39,12 @@ a {
     color:#ffffff;
     text-decoration: underline;
 }
+a:hover{
+    color:#ffd119;
+}
+a:visted{
+    color:#ffffff;
+}
 /*---------------------------------------
    COMMON STYLES             
 -----------------------------------------*/
