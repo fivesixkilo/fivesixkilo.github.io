@@ -142,21 +142,31 @@
                 <!-- END ERROR AND SUCCESS MESSAGE -->
 
                 <!-- CONTACT FORM starts here, Go to contact.php and add your email ID, thats it.-->    
-                    <form role="form" action="contact.php">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <input type="text" class="form-control" id="name" placeholder="Name">
-                                <input type="email" class="form-control" id="email" placeholder="Email">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject">
-                            </div>
+                    <form method="POST" name="contactform" action="contact-form-handler.php"> 
+<p>
+<label for='name'>Your Name:</label> <br>
+<input type="text" name="name">
+</p>
+<p>
+<label for='email'>Email Address:</label> <br>
+<input type="text" name="email"> <br>
+</p>
+<p>
+<label for='message'>Message:</label> <br>
+<textarea name="message"></textarea>
+</p>
+<input type="submit" value="Submit"><br>
+</form>
 
-
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
-                                <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>
-                            </div>
-                        </div>
-                    </form>
+<script language="JavaScript">
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
                     <!-- END FORM --> 
                 </div>
             </div>
@@ -207,6 +217,7 @@
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/script.js"></script>
+    <script language="JavaScript" src="js/gen_validatorv31.js" type="text/javascript"></script>
     
  
 
