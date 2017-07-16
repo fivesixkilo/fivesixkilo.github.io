@@ -745,6 +745,11 @@ div.carousel-inner .item img {
     background-size: cover;
 
 }
+.contact p {
+    text-align: center;
+    font-weight: 300;
+
+}
 .contact_form {
     padding-top: 30px;
     padding-bottom:50px;
