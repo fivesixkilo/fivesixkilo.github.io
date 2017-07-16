@@ -43,9 +43,9 @@ function send_mail($to,$subject,$message,$headers){
 //Get data form and send mail
 if(isset($_POST['name']) and isset($_POST['mail']) and isset($_POST['messageForm'])){
     $name = $_POST['name'];
-    $mail = $_POST['mail'];
-    $subjectForm = $_POST['subjectForm'];
-    $messageForm = $_POST['messageForm'];
+    $mail = $_POST['emaild'];
+    $subjectForm = $_POST['subject'];
+    $messageForm = $_POST['message'];
 
     if($name == '') {
         echo json_encode(array('info' => 'error', 'msg' => "Please enter your name."));
