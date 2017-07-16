@@ -101,8 +101,8 @@ h1 {
 .navbar-brand {
     padding: 9px 15px;
 }
-@media(min-width:768px) {
-    .home_text h1 {
+@media(max-width:1440px) {
+.home_text h1 {
     font-family: 'Lusitana', serif;
     color: #fff;
     text-transform: lowercase;
@@ -113,6 +113,9 @@ h1 {
     margin-bottom:100px;
     text-align:left;
 }
+}
+
+    
     .navbar-default {
         background-color: transparent;
     }
