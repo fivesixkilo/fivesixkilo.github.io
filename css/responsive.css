@@ -31,6 +31,26 @@
     .about_phone img {
         width: 100%;
     }
+    .home_text h1 {
+    font-family: 'Lusitana', serif;
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 0px;
+    margin-bottom:50px;
+    text-align:left;
+}
+.home_text p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-align:right;
+}
 }
 /* This Css is for tablet */
 

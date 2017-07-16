@@ -173,11 +173,7 @@ h1 {
 .home-iphone img{
     width: 100%;
 }
-@media only screen and (max-width: 768px) {
-    p {
-        font-size: 14px;
-    }
- }
+
 
 @media (max-width: 768px){
     .home-iphone{
