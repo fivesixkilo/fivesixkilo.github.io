@@ -747,6 +747,7 @@ div.carousel-inner .item img {
 }
 .contact_form {
     padding-top: 30px;
+    padding-bottom:50px;
 }
 .contact_form .form-control {
     display: block;
