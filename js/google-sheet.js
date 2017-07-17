@@ -26,7 +26,9 @@ $("#foo").submit(function(event){
     request = $.ajax({
         url: "https://script.google.com/macros/s/AKfycbwRFAN7o6aLpvUflIDVEDVMGWtZfEk-LJ9EPq4aH2-tv0xw0SU/exec",
         type: "post",
-        data: serializedData
+        data: serializedData,
+        success: function() {
+                $('.success').fadeIn(100).show()
     });
 
     // Callback handler that will be called on success
