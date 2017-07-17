@@ -86,6 +86,7 @@
                             <p >HYBRID<br> SOFTWARE<br> DEVELOPMENT</p>
                             <h1 >r:ch<br>:nnovat:on</h1>
                             <p ><a href="#CONTACT">LET'S GET TO WORK</a></p>
+                            
 
                         
                         </div>
@@ -120,7 +121,7 @@
                     <!-- Start Contact Section Title-->
                     <div class="section_title">
                     
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                        <p>TestLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                     </div>
                 </div>
             </div>
@@ -131,23 +132,26 @@
                 
 
                 <!-- CONTACT FORM starts here, Go to contact.php and add your email ID, thats it.-->    
-                    <form role="form" id="foo">
-                        <div class="row">
-                            <div class="col-md-4" style="width:33%; padding-left:15px; padding-right:15px;">
-                                <input type="text" class="form-control" id="name" placeholder="Name">
-                                <input type="email" class="form-control" id="email" placeholder="Email">
-                                
-                            </div>
+                 
+                    <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdVhc6DvAWN4cZhccCSrMQgtMyRh0BbL4XMD6A3bIVSuBTg4g/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  
+  <input class="form-control" type="text" name="entry.1717317667" id="entry.1717317667" placeholder="Name">
+  
+  <input class="form-control" type="text" name="entry.174415341" id="entry.174415341" placeholder="Email">
+  
+  <textarea rows="20" class="form-control" type="text" name="entry.1521524624" id="entry.1521524624" placeholder="Tell us about your project"></textarea>
+  <input type="submit" value="Submit">
+</form>
 
-
-                            <div class="col-md-8" style="width:66%; padding-left:15px; padding-right:15px;">
-                                <textarea type="text" class="form-control" id="message" name='message' rows="25" cols="10" placeholder="Tell me about your project"></textarea>
-                            
-                                <div id='success'></div>
-                                <button type='submit'>Send</button>
-                            </div>
-                        </div>
-                    </form>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+<script src="/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Thanks, we will get back to you soon');
+  });
+</script>
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <!-- Custom Theme JavaScript -->
   <script src='js/google-sheet.js'></script>
@@ -157,6 +161,16 @@
 
             
         </div>
+        
+<script src="/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Thanks, we will get back to you soon');
+  });
+</script>
+
         
     </section>
     <!-- END CONTACT -->
