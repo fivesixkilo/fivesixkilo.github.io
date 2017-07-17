@@ -210,12 +210,12 @@ h1 {
 }
 .home_text p {
     color: #fff;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 30px;
     margin-bottom: 100px;
     font-weight: 200;
-    letter-spacing: 5px;
-    text-align:right;
+    letter-spacing: 3px;
+    text-align:left;
 }
 .download-btn {
     margin-top: 90px;
