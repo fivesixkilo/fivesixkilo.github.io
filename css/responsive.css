@@ -3,7 +3,7 @@
 
 @media (max-width: 767px) {
     .header{
-        background-size: auto 100%;
+        background-size: auto 500px;
     }
     .single_store {
         border-left: 0px;
