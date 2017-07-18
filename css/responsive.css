@@ -37,14 +37,14 @@
     line-height: 40px;
     padding-top: 0px;
     margin-top:100px;
-    margin-bottom:100px;
+    margin-bottom:80px;
     text-align:center;
 }
 .home_text p {
     color: #fff;
     font-size: 22px;
     line-height: 27px;
-    
+    margin-top:40px;
     font-weight: 200;
     letter-spacing: 5px;
     text-align:center;
