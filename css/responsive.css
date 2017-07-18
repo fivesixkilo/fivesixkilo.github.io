@@ -2,6 +2,20 @@
 /* This Css is for small mobile */
 
 @media (max-width: 767px) {
+    .desktopdesc{
+        display:none;
+        margin-bottom: 0px;
+        margin-top:0px;
+    }
+    .home_text {
+        margin-bottom:0px;
+        margin-top:0px;
+    }
+    #mobiledesc{
+        font-size: 15px;
+        margin-bottom:20px;
+        margin-top:20px;
+    }
     .header{
         background-size: auto;
     }
@@ -32,12 +46,12 @@
     font-family: 'Lusitana', serif;
     color: #fff;
     text-transform: lowercase;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 300;
     line-height: 40px;
     padding-top: 0px;
-    margin-top:100px;
-    margin-bottom:80px;
+    margin-top:0px;
+    margin-bottom:40px;
     text-align:center;
 }
 .home_text p {
@@ -64,6 +78,14 @@
 /* This Css is for tablet */
 
 @media (min-width: 760px) {
+    #mobilelogo {
+        display:none;
+
+    }
+    #mobiledesc {
+        display:none;
+    }
+    
     .single_store {
         border-left: 0px;
     }
@@ -94,6 +116,25 @@
 /* This Css is for Medium Deviced */
 
 @media (min-width: 992px) {
+    .home_text h1 {
+    font-family: 'Lusitana', serif;
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 40px;
+    padding-top: 0px;
+    margin-top:100px;
+    margin-bottom:80px;
+    text-align:left;
+}
+    #mobilelogo {
+        display:none;
+
+    }
+    #mobiledesc {
+        display:none;
+    }
     .last {
         border-right: 1px solid #0F1217;
     }

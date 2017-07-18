@@ -49,6 +49,7 @@ a:active{
     color:#ffd119;
 }
 textarea { height: auto; }
+
 /*---------------------------------------
    COMMON STYLES             
 -----------------------------------------*/
@@ -269,7 +270,9 @@ tuor:visited {
     color: #f39c12;
 }
 
-
+#mobiledesc p{
+        font-size:13px;
+    }
 
 /*---------------------------------------
    SECTION ABOUT              
