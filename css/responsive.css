@@ -2,6 +2,10 @@
 /* This Css is for small mobile */
 
 @media (max-width: 767px) {
+    #mobilelogo {
+        margin-top: 20px;
+
+    }
     .desktopdesc{
         display:none;
         margin-bottom: 0px;
@@ -46,7 +50,7 @@
     font-family: 'Lusitana', serif;
     color: #fff;
     text-transform: lowercase;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 300;
     line-height: 40px;
     padding-top: 0px;
@@ -56,11 +60,11 @@
 }
 .home_text p {
     color: #fff;
-    font-size: 22px;
+    
     line-height: 27px;
     margin-top:40px;
     font-weight: 200;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-align:center;
     
 }
