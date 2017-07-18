@@ -55,6 +55,11 @@
     text-align:left;
     
 }
+.contact_form #submitbtn {
+
+    height:50px;
+    width:250px; 
+}
 }
 /* This Css is for tablet */
 

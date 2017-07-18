@@ -795,6 +795,19 @@ div.carousel-inner .item img {
     padding-top: 100px;
     padding-bottom:100px;
 }
+.contact_form #submitbtn {
+
+    height:50px;
+    width:360px; 
+    background-color:#ffcc00; 
+    text-align:center; 
+    display:block; 
+    margin:auto; 
+    margin-top:75px; 
+    border-width:0px; 
+    color:white;
+    letter-spacing:2px;
+}
 .contact_form .form-control {
     font-weight: 200;
     display: block;
