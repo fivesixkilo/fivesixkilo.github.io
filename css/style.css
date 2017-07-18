@@ -796,7 +796,7 @@ div.carousel-inner .item img {
 }
 .contact_form {
     padding-top: 100px;
-    padding-bottom:100px;
+    padding-bottom:50px;
 }
 .contact_form #submitbtn {
 
@@ -1036,22 +1036,25 @@ div.carousel-inner .item img {
 
 .copyright {
     background-color: #1A1D22;
-    padding-bottom: 65px;
-    padding-top: 65px;
-    border-bottom: 3px solid #f39c12;
+    padding-bottom: 15px;
+    padding-top: 35px;
+    
 }
 .copyright h2 {
     height: 0px;
     margin: 0px;
 }
 .copy_right_text {
-    width: 60%;
+    width: 100%;
 }
 .copy_right_text p {
+    
     color: #8C8B8A;
-    font-weight: 600;
+    font-weight: 200;
     text-transform: uppercase;
     font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
 }
 .copy_right_text p a {
     text-decoration: none;
