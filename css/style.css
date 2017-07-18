@@ -1049,7 +1049,7 @@ div.carousel-inner .item img {
 }
 .copy_right_text p {
     
-    color: #8C8B8A;
+    color: #ffffff;
     font-weight: 200;
     text-transform: uppercase;
     font-size: 15px;
@@ -1060,8 +1060,11 @@ div.carousel-inner .item img {
     text-decoration: none;
     color: #f39c12;
 }
-.copy_right_text p span {
-    font-weight: 300;
+
+.copy_right_text img{
+    float:right;
+    margin-right:0px;
+    display:inline-block;
 }
 .scroll_top {
     text-align: right;
