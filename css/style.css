@@ -48,6 +48,7 @@ a:visted{
 a:active{
     color:#ffd119;
 }
+textarea { height: auto; }
 /*---------------------------------------
    COMMON STYLES             
 -----------------------------------------*/
@@ -777,28 +778,30 @@ div.carousel-inner .item img {
 }
 .contact p {
     text-align: center;
-    font-weight: 300;
+    font-weight: 200;
 
 }
 .contact_form {
-    padding-top: 30px;
-    padding-bottom:50px;
+    padding-top: 100px;
+    padding-bottom:100px;
 }
 .contact_form .form-control {
+    font-weight: 200;
     display: block;
     display: block;
     width: 100%;
     height: 50px;
     padding: 6px 12px;
-    font-size: 14px;
+    margin: 30px;
+    font-size: 18px;
     line-height: 1.42857143;
     color: #555;
     background-color: transparent;
     border: 1px solid #aeaeae;
     background-image: none;
-    border-radius: 3px;
+    border-radius: 0px;
     margin-bottom: 15px;
-    opacity: .8;
+    opacity: 1;
      -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
