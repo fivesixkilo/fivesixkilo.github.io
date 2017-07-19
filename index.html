@@ -1,11 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--
-	Bent - Bootstrap Landing Page Template by Dcrazed
-	Site: https://dcrazed.com/bent-app-landing-page-template/
-	Free for personal and commercial use under GNU GPL 3.0 license.
--->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -63,7 +57,7 @@
  <!-- END PRELOADER -->
 
  <!-- =========================
-     START ABOUT US SECTION
+     START HEADER SECTION
 ============================== -->
     <section class="header parallax home-parallax page" id="HOME">
         <h2></h2>
@@ -86,29 +80,12 @@
                             <p class="desktopdesc">HYBRID<br> SOFTWARE<br> DEVELOPMENT</p>
                             <h1 >r:ch<br>:nnovat:on</h1>
                             <p id="mobiledesc">HYBRID SOFTWARE DEVELOPMENT</p>
-                            <p ><a href="#CONTACT">LET'S GET TO WORK</a></p>
-                            
-
-                        
+                            <p ><a href="#CONTACT">LET'S GET TO WORK</a></p>     
                         </div>
-                    </div>
-                    <div class="col-md-3 col-md-offset-1 col-sm-4">
-                        <?div class="home-iphone">
-                            <?img src="images/iPhone_Home.png" alt="">
-                        <?/div>
-                    </div>
+                    </div>                 
                 </div>
             </div>
-            <!-- Contact Form - sent to a Google Sheet -->
-  
-
-
         </div>
-    
-
-  
-  <!-- Custom Theme JavaScript -->
-  
     </section>
 
     <!-- END HEADER SECTION -->
@@ -123,36 +100,24 @@
                     <h2>INITIATE CONTACT WITH THE OVERLORD</h2>
                 </div>
             </div>
-
             <div class="contact_form wow ">
                 <div class="container">
-
-               
-
-                <!-- CONTACT FORM starts here, Go to contact.php and add your email ID, thats it.-->    
-                 
                     <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdVhc6DvAWN4cZhccCSrMQgtMyRh0BbL4XMD6A3bIVSuBTg4g/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-  
-                     <input class="form-control" type="text" name="entry.1717317667" id="entry.1717317667" placeholder="Name">
-  
-                         <input class="form-control" type="text" name="entry.174415341" id="entry.174415341" placeholder="Email">
-  
-                             <textarea style="height:auto;" rows="8" class="form-control" type="text" name="entry.1521524624" id="entry.1521524624" placeholder="Tell us about your project"></textarea>
-                                 <input id="submitbtn" type="submit" value="SUBMIT" >
-                        </form>
-
-                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-                <script src="/js/jquery.min.js"></script>
+                        <input class="form-control" type="text" name="entry.1717317667" id="entry.1717317667" placeholder="Name">
+                        <input class="form-control" type="text" name="entry.174415341" id="entry.174415341" placeholder="Email">
+                        <textarea style="height:auto;" rows="8" class="form-control" type="text" name="entry.1521524624" id="entry.1521524624" placeholder="Tell us about your project"></textarea>
+                        <input id="submitbtn" type="submit" value="SUBMIT" >
+                    </form>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                    
                     <script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Thanks, we will get back to you soon.');
-  });
-</script>
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- Custom Theme JavaScript -->
-  <script src='js/google-sheet.js'></script>
+                    <script type="text/javascript">
+                        $('#gform').on('submit', function(e) {
+                            $('#gform *').fadeOut(1000);
+                            $('#gform').prepend('Thanks, we will get back to you soon.');
+                         });
+                    </script>
+                    
                     <!-- END FORM --> 
                     
                 </div>
