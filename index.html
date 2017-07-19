@@ -80,7 +80,6 @@
                 <div class="row" id="mobilelogo">
                     <div class="col-md-12">
                         <div class="logo text-center">
-                                <!-- LOGO -->
                             <img width="112" height="150" src="images/logo.png" alt="">
                         </div>
                     </div>
@@ -88,7 +87,6 @@
                 <div class="row">
                     <div class="col-md-8 col-sm-8">
                         <div class="home_text">
-                            <!-- TITLE AND DESC -->
                             <p class="desktopdesc">HYBRID<br> SOFTWARE<br> DEVELOPMENT</p>
                             <h1 >r:ch<br>:nnovat:on</h1>
                             <p id="mobiledesc">HYBRID SOFTWARE DEVELOPMENT</p>
@@ -108,7 +106,6 @@
         <div class="section_overlay">
             <div class="container">
                 <div class="col-md-10 col-md-offset-1 wow ">
-                    <!-- Start Contact Section Title-->
                     <h2>INITIATE CONTACT WITH THE OVERLORD</h2>
                 </div>
             </div>
@@ -121,53 +118,35 @@
                         <input id="submitbtn" type="submit" value="SUBMIT" >
                     </form>
                     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                    <!-- the first script below shouldn't have to be there, but the fade doesn't work if it isn't -->
                     <script src="/js/jquery.min.js"></script>
                     <script type="text/javascript">var submitted=false;</script>
                     <script type="text/javascript">
                         $('#gform').on('submit', function(e) {
                             $('#gform *').fadeOut(1000);
-                            $('#gform').prepend('Thanks, we will get back to you soon.');
+                            $('#gform').prepend('Thanks, we\'ll get back to you soon.');
                          });
-                    </script>
-                
-                    
+                    </script>                    
                 </div>
-            </div>
-
-            
-        </div>
-        
-
-
-
-
-
-        
+            </div>         
+        </div>   
     </section>
     <!-- END CONTACT -->
     <!-- =========================
      FOOTER 
 ============================== -->
-
     <section class="copyright">
         <h2></h2>
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
                     <div class="copy_right_text">
-                    <!-- COPYRIGHT TEXT -->
-                        <p>contact@rich-innovation.com</br>–</br>&copy; 2017 Rich Innovation LLC. All Rights Reserved.</p>  
-                        <?img src="images/robot_sneak.png" width="auto" height="55"><?/img>     
-                        
-                    </div>
-                     
+                        <p>contact@rich-innovation.com</br>–</br>&copy; 2017 Rich Innovation LLC. All Rights Reserved.</p>    
+                    </div>  
                 </div>
-
-               
             </div>
         </div>
     </section>
     <!-- END FOOTER -->
-
 </body>
 </html>
